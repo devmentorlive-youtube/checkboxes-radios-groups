@@ -1,7 +1,9 @@
-export default function Homepage() {
+import OptionsModal from "@/features/options-modal";
+
+export default function Homepage({}) {
   return (
-    <div className="mt-16 container mx-auto">
-      <h1>Hello world.</h1>
+    <div className="container w-1/2 mx-auto mt-8">
+      <OptionsModal />
     </div>
   );
 }
